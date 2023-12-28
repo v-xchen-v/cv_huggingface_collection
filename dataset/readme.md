@@ -4,4 +4,6 @@ Select a dataset specifically for face parsing, which includes images of faces w
 https://github.com/jd-opensource/lapa-dataset
 no ear region annotation
 
-https://github.com/switchablenorms/CelebAMask-HQ
+https://github.com/switchablenorms/CelebAMask-HQ √
+
+### prepare the dataset and upload to huggingface dataset hub for better data management

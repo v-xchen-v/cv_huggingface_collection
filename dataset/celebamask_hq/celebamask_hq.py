@@ -40,6 +40,8 @@ class CelebAMaskHQ(datasets.GeneratorBasedBuilder):
         ]
         self.label2id = {label: i for i, label in enumerate(self.labels)}
         self.id2label = {i: label for i, label in enumerate(self.labels)}
+        self.label2id['background'] = 0
+        self.id2label[0]='background' 
         self.num_classes = len(self.labels)
         
     def _info(self):
